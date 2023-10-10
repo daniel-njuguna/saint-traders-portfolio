@@ -859,3 +859,32 @@
   #projects .projects-btn:hover {
     background-color: var(--main-color);
   }
+ /* Style for the image gallery section */
+#image-gallery {
+    background-color: #130d0d; /* Set a background color if needed */
+    padding: 40px 0;
+}
+
+/* Style for the image grid container */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for image rows */
+.image-row {
+    display: flex;
+    margin-bottom: 20px; /* Adjust the margin between rows */
+}
+
+/* Style for individual image items */
+.image-item {
+    margin-right: 20px; /* Adjust the margin between images */
+}
+
+/* Style for images */
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
